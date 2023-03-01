@@ -12,9 +12,9 @@ pip install artitle
 
 # Usage
 
-To use artitle, you must have the Grobid server running on your computer. You can refer to the Grobid documentation for information on how to run the server.
+To use artitle, you must have Grobid server running on your computer. You can refer to the Grobid documentation for information on how to run the server.
 
-According to our observations Grobid needs to eat up substantial amounts of memory to be able to perform it's job. We recommend to allocate at least `6GB` memory for Grobid Server to avoid runtime failures. To run the container with `6GB` memory you could type following command:
+According to our observations Grobid needs to eat up substantial amounts of memory to be able to perform it's job. We recommend to allocate at least `6GB` memory for Grobid Server to avoid runtime failures. To run the container with `6GB` memory you could type the following command:
 
 ```bash
 docker run -m 6g -p 8070:8070 grobid/grobid:0.7.2
